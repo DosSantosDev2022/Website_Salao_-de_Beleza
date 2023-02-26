@@ -1,0 +1,69 @@
+
+.section__profissionais__container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.profissionais__textos{
+   display: flex;
+   flex-direction: column;
+   
+   padding: 5rem;
+   background-image: url(../../img/Rectangle\ 67.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: end;
+}
+.profissionais__textos span{
+   font-size: 1.44rem;
+   font-weight: 700;
+   color: var(--color2);
+}
+.profissionais__textos h3{
+   font-size: 2.18rem;
+   font-weight: 700;
+   color: var(--color1);
+   margin-bottom: 2rem;
+}
+.profissionais__textos p{
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--color2);
+   text-align: end;
+}
+
+.profissionais__cards{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   padding: 2rem;
+}
+
+.pcards{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+
+.pcards h4{
+   font-size: 1.37rem;
+   font-weight: 600;
+   color: var(--color3);
+}
+.pcards span{
+   font-size: 1.1rem;
+   font-weight: 400;
+   color: var(--color1);
+}
+
+.icon{
+   display: flex;
+   gap: 1rem;
+}
+.icon i{
+   color: var(--color1);
+   font-size: 1.25rem;
+}

@@ -1,0 +1,57 @@
+
+.section__combos__container{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 87px;
+   padding: 1rem;
+}
+
+.combo__container1{
+   background-image: url(../../img/Rectangle\ 48.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 8rem;
+   width: 100%;
+}
+
+.combo__container2{
+   width: 100%;
+   background-image: url(../../img/Rectangle\ 49.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 8rem;
+}
+
+.combo__texto{
+   display: flex;
+   flex-direction: column;
+   gap: 0.50rem;
+   width: 569px;
+}
+
+.combo__texto span{
+   font-size: 1.44rem;
+   font-weight: 700;
+   color: var(--color2);
+}
+.combo__texto h3{
+   font-size: 2.18rem;
+   font-weight: 700;
+   color: var(--color1);
+}
+.combo__texto p{
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--color2);
+}
+.combo__texto a{
+   font-size: 1rem;
+   font-weight: 600;
+   color: var(--color2);
+   background-color: var(--color1);
+   width: 192px;
+   padding: 0.50rem;
+   text-align: center;
+}

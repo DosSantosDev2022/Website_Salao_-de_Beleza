@@ -1,8 +1,38 @@
 
+/* Imports Css */
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@200;300;400;500;600;700 & family= Krona+One & family= Syne:wght@ 400;500;600;700 & display=swap');
+@import url(header.css);
+@import url(section/banner.css);
+@import url(section/sobre_nos.css);
+@import url(section/serviços.css);
+@import url(section/combos.css);
+@import url(section/newsletter.css);
+@import url(section/profissionais.css);
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'Syne', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+:root{
+  /* Fontes */
+  --fonte-01: 'Inter';
+  --font-02:'Syne';
+
+  /* Cores */
+  --color1:#CDA582;
+  --color2:#FFFFFF;
+  --color3:#000000;
+  --color4:#525252;
+  --color5:#8D8D8D;
+
 }

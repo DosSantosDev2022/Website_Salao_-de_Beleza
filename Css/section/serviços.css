@@ -1,0 +1,82 @@
+
+.section__servicos__container{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+   margin-top: 8rem;
+}
+
+.section__servicos__titulo{
+   display: flex;
+   flex-direction: column;
+   gap: 0.20rem;
+   text-align: center;
+}
+.section__servicos__titulo span{
+   font-size: 1.44rem;
+   font-weight: 700;
+   color: var(--color3);
+   text-transform: uppercase;
+}
+.section__servicos__titulo h3{
+   font-size: 2.18rem;
+   font-weight: 700;
+   color: var(--color1);
+   text-transform: uppercase;
+}
+
+.servicos__cards__container{
+   width:100% ;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   padding: 5rem;
+   gap: 1rem;
+}
+
+.servico__card{
+   width: 330px;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   text-align: center;
+   padding: 30px 55px 28px 55px;
+   border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.servico__card:nth-child(1){
+   background-image: url(../../img/woman-washing.png);
+   border: none;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#card_p01, #card_span01{
+   color: var(--color2);
+}
+
+.servico__card h4{
+   font-size: 1.375rem;
+   font-weight: 700;
+   color: var(--color1);
+}
+.servico__card p{
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--color3);
+   font-family: var(--fonte-01);
+}
+.servico__card span{
+   font-size: 1.125rem;
+   font-weight: 600;
+   color: var(--color3);
+}
+.servico__card a{
+   font-size: 1rem;
+   color: var(--color2);
+   background-color: var(--color1);
+   width: 193px;
+   padding: 0.625rem;
+}
