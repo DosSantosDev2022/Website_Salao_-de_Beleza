@@ -9,7 +9,6 @@
 .profissionais__textos{
    display: flex;
    flex-direction: column;
-   
    padding: 5rem;
    background-image: url(../../img/Rectangle\ 67.png);
    background-repeat: no-repeat;
@@ -46,15 +45,25 @@
    flex-direction: column;
    align-items: center;
    gap: 1rem;
+   padding: 1rem;
+}
+
+.pcards:hover{
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.pcards img{
+   width: 95%;
 }
 
 .pcards h4{
-   font-size: 1.37rem;
+   font-size: 1rem;
    font-weight: 600;
    color: var(--color3);
 }
 .pcards span{
-   font-size: 1.1rem;
+   font-size: 0.90rem;
    font-weight: 400;
    color: var(--color1);
 }
@@ -66,4 +75,5 @@
 .icon i{
    color: var(--color1);
    font-size: 1.25rem;
+   cursor: pointer;
 }

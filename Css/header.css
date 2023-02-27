@@ -11,7 +11,7 @@
    align-items: center;
    padding: 2rem;
    background-color: var(--color1);
-   height: 55px;
+   height: 3.43rem;
 }
 
 .header__contatos{
@@ -34,9 +34,14 @@
    font-weight: 500;
 }
 
+.header__social a:hover{
+   transform: scale(1.1);
+   transition: 1s;
+}
+
 .header__navegação{
    width: 100%;
-   height: 134px;
+   height: 8.125rem;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -56,6 +61,12 @@
    font-family: var(fonte-02);
 }
 
+.menu__navegação a:hover{
+   text-decoration: underline;
+   color: var(--color1);
+   transition: 1s;
+}
+
 .button{
    background-color: var(--color3);
    color: var(--color2);
@@ -63,4 +74,9 @@
    text-transform: uppercase;
    font-size: 0.95rem;
    font-weight: bold;
+}
+
+.button:hover{
+   background-color: var(--color1);
+   transition: 1s;
 }

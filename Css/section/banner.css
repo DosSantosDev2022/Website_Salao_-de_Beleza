@@ -10,23 +10,23 @@
 .banner__textos{
    display: flex;
    flex-direction: column;
-   gap: 2rem;
+   gap: 1.25rem;
    align-items: start;
    position: relative;
-   left: 980px;
-   top: 200px;
+   left: 55%;
+   top: 40%;
 }
 
 .banner__textos h2{
-   font-size: 2.8rem;
+   font-size: 2.5rem;
    font-weight: 700;
    text-transform: uppercase;
    color: var(--color2);
 }
 
 .banner__textos p{
-   font-size: 1.12rem;
-   font-weight: 600;
+   font-size: 1.10rem;
+   font-weight: 400;
    color: var(--color2);
 }
 
