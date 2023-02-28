@@ -8,7 +8,7 @@
 @import url(section/combos.css);
 @import url(section/newsletter.css);
 @import url(section/profissionais.css);
-
+@import url(section/depoimentos.css);
 
 *{
   margin: 0;
@@ -34,5 +34,6 @@ body{
   --color3:#000000;
   --color4:#525252;
   --color5:#8D8D8D;
+  --color6:#F9ECE1;
 
 }
