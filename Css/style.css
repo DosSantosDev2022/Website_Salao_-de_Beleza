@@ -9,6 +9,7 @@
 @import url(section/newsletter.css);
 @import url(section/profissionais.css);
 @import url(section/depoimentos.css);
+@import url(section/form.css);
 
 *{
   margin: 0;

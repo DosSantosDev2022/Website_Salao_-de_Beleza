@@ -8,6 +8,7 @@
     align-content: center;
     justify-content: center;
     gap: 2rem;
+    background-color: #F9ECE1;
 }
 
 .dep__titulo{
@@ -26,7 +27,7 @@
     flex-direction: column;
     align-items: start;
     border-radius: 8px;
-    padding: 2rem;
+    padding: 1.50rem;
     gap: 2rem;
     -webkit-box-shadow: -1px -1px 5px 4px rgba(0,0,0,0.21);
    -moz-box-shadow: -1px -1px 5px 4px rgba(0,0,0,0.21);
