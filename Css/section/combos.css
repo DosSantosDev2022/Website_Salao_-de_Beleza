@@ -5,7 +5,6 @@
    align-items: center;
    justify-content: center;
    margin-top: 87px;
-   padding: 1rem;
 }
 
 .combo__container1{
@@ -13,11 +12,9 @@
    background-repeat: no-repeat;
    background-size: cover;
    padding: 8rem;
-   width: 100%;
 }
 
 .combo__container2{
-   width: 100%;
    background-image: url(../../img/Rectangle\ 49.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -27,8 +24,8 @@
 .combo__texto{
    display: flex;
    flex-direction: column;
-   gap: 0.50rem;
-   width: 569px;
+   align-items: start;
+   gap: 1rem;
 }
 
 .combo__texto span{

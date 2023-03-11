@@ -1,0 +1,37 @@
+
+.container__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  background-color: var(--color3);
+}
+
+.footer__logo{
+  text-align: center;
+}
+.footer__logo p{
+  color: var(--color2);
+}
+
+.links__footer{
+
+}
+.links__footer h5{
+  color: var(--color1);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.links__footer ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.50rem;
+}
+.links__footer ul li a  {
+  color: var(--color2);
+}
+.links__footer ul li {
+  color: var(--color2);
+}

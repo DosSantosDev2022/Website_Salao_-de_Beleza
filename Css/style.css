@@ -10,6 +10,8 @@
 @import url(section/profissionais.css);
 @import url(section/depoimentos.css);
 @import url(section/form.css);
+@import url(footer.css);
+@import url(responsivo.css);
 
 *{
   margin: 0;

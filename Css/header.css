@@ -9,16 +9,16 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 2rem;
+   padding: 1.5rem;
    background-color: var(--color1);
-   height: 3.43rem;
+   height: 1rem;
 }
 
-.header__contatos{
+.textos__contatos{
    display: flex;
    gap: 2rem;
 }
-.header__contatos p{
+.textos__contatos p{
    color: var(--color2);
    font-family: var(--fonte-01);
    font-weight: 500;
